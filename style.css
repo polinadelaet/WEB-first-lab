@@ -1,0 +1,122 @@
+html {
+
+}
+
+body {
+  color: aliceblue;
+  font-size: 20px;
+}
+
+header {
+  font-family: Monotype Corsiva, monospace;
+  color: #ec58ea;
+  line-height: 125%;
+  font-size: 50px;
+  font-weight: bold;
+  font-style: oblique;
+  text-align: center;
+  text-shadow: -1px -3px 3px #000000;
+}
+
+
+.wrapper {
+  width: 250px;
+  height: 250px;
+  margin: 10% 10% auto auto;
+}
+
+.diagram {
+  border: 10px solid rgba(5, 5, 5, 0.3);
+  border-radius: 50px;
+}
+
+img {
+  height: auto;
+  width: 100%;
+}
+
+body {
+  background-image: url("IMG9.jpg");
+  background-size: cover;
+}
+
+.border {
+  border-radius: 30px;
+  background-color: rgba(5, 5, 5, 0.3);
+  text-align: center;
+}
+
+#area_x {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  width: 200px;
+  height: 110px;
+  /*border-radius: 15px;*/
+}
+
+#area_y {
+  position: absolute; /* Абсолютное позиционирование */
+  top: 40%;
+  right: 600px; /* Положение от правого края окна */
+  width: 240px;
+  height: 150px;
+}
+
+#area_z {
+  position: absolute; /* Абсолютное позиционирование */
+  top: 60%;
+  right: 850px;
+  width: 240px;
+  height: 110px;
+}
+
+.error {
+
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 3px 3px 3px pink;
+}
+
+.formXYZ {
+  margin: 20px 4px 30px 100px;
+}
+
+#jabaVideo {
+  display: block;
+  margin: 0 auto;
+  width:200px;
+  height:200px;
+  position: fixed; /* Фиксированное положение */
+  right: 10px; /* Расстояние от правого края окна браузера */
+  top: 73%;
+}
+
+#formSubmit {
+  text-shadow: 3px 3px 3px pink;
+  position: absolute;
+  right: 20%; /* Положение от правого края окна */
+  width: 100px;
+  height: 50px;
+}
+
+li {
+  list-style-type: "\1F633";
+}
+
+th {
+  text-align: center;
+}
+
+#pic {
+  position: fixed;
+  right: 10px;
+}
+
+/*a:hover {
+    background: #786b59; /* Цвет фона под ссылкой */
+
+/*    color: #ffe; /* Цвет ссылки */
+/* }
