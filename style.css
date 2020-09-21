@@ -1,10 +1,7 @@
-html {
-
-}
-
 body {
   color: aliceblue;
   font-size: 20px;
+  min-width: 50%;
 }
 
 header {
@@ -18,11 +15,46 @@ header {
   text-shadow: -1px -3px 3px #000000;
 }
 
+#main {
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 0px 15px;
+}
+
+@media (max-width: 1200px) {
+  #main {
+    max-width: 970px;
+    margin: 0px auto;
+    padding: 0px 15px;
+  }
+}
+
+@media (max-width: 992px) {
+  #main {
+    max-width: 750px;
+    margin: 0px auto;
+    padding: 0px 15px;
+  }
+}
+
+#time-node {
+  background: rgba(5, 5, 5, 0.3);
+  padding: 10px;
+  font-family: "DejaVu Sans Condensed", monospace;
+  font-size: 35px;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  border-radius: 30px;
+  position:absolute;
+  top: 54%;
+  right: 9%;
+}
 
 .wrapper {
   width: 250px;
   height: 250px;
-  margin: 10% 10% auto auto;
+  margin: 4% 7% auto auto;
 }
 
 .diagram {
@@ -48,25 +80,29 @@ body {
 
 #area_x {
   position: absolute;
-  top: 40%;
-  left: 30%;
+  top: 18%;
+  left: 31%;
+  right: auto;
+  bottom: auto;
+
   width: 200px;
-  height: 110px;
+  height: 120px;
   /*border-radius: 15px;*/
 }
 
 #area_y {
   position: absolute; /* Абсолютное позиционирование */
-  top: 40%;
-  right: 600px; /* Положение от правого края окна */
+  top: 18%;
+  left: 47%;
+  /* Положение от правого края окна */
   width: 240px;
-  height: 150px;
+  height: 140px;
 }
 
-#area_z {
+#area_r {
   position: absolute; /* Абсолютное позиционирование */
-  top: 60%;
-  right: 850px;
+  top: 37%;
+  left: 30%;
   width: 240px;
   height: 110px;
 }
@@ -75,14 +111,46 @@ body {
 
 }
 
+
+
+
 h3 {
   font-family: Arial, Helvetica, sans-serif;
   text-shadow: 3px 3px 3px pink;
 }
 
-.formXYZ {
-  margin: 20px 4px 30px 100px;
+
+#table-wrapper {
+  position:absolute;
+  top: 54%;
+  left: 30%;
+
 }
+#table-scroll {
+  height: 300px;
+  overflow: auto;
+  margin-top: 20px;
+
+}
+#table-wrapper table {
+  width: 600px;
+  background: rgba(5, 5, 5, 0.3);
+  border-radius: 30px;
+  text-align: center;
+}
+
+th {
+  font-weight: normal;
+  color: #ffffff;
+  border-bottom: 2px solid #d73bd9;
+  padding: 10px 8px;
+}
+td {
+  color: #ffffff;
+  padding: 9px 8px;
+  transition: .3s linear;
+}
+tr:hover td {color: #df0dec;}
 
 #jabaVideo {
   display: block;
@@ -95,11 +163,16 @@ h3 {
 }
 
 #formSubmit {
-  text-shadow: 3px 3px 3px pink;
   position: absolute;
-  right: 20%; /* Положение от правого края окна */
+  font-size: 18px;
+  top: 43%;
+  left: 51%;
   width: 100px;
   height: 50px;
+  background: rgba(5, 5, 5, 0.3);
+  border-radius: 30px;
+  color: #ffffff;
+  outline: none;
 }
 
 li {
@@ -115,8 +188,36 @@ th {
   right: 10px;
 }
 
-/*a:hover {
-    background: #786b59; /* Цвет фона под ссылкой */
 
-/*    color: #ffe; /* Цвет ссылки */
-/* }
+::-webkit-scrollbar {
+  height: 8px; /* высота для горизонтального скролла */
+  display: none;
+  width: 10px;
+}
+
+::-webkit-scrollbar-button {
+  background-repeat: no-repeat;
+  width: 5px;
+  height: 4px
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  background-color: #ff55f8;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background-color:#56999f;
+}
+
+::-webkit-resizer{
+  background-repeat:no-repeat;
+  width:4px;
+  height:0;
+}

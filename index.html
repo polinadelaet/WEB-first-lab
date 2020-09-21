@@ -3,26 +3,27 @@
 <html>
 <head>
   <meta charset="utf-8" />
-  <title>хуйня</title>
+  <title>балдёж</title>
   <meta name="author" content="палиш" />
+  <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="style.css">
+  <script src="jquery-3.5.1.min.js"></script>
+  <script src="script.js"></script>
 </head>
 <body>
   <header>
     Прокушева Полина Андреевна, p3231, вариант 2719
   </header>
-  <script src="jquery-3.5.1.min.js"></script>
-  <script src="script.js"></script>
   <video src="dank.mp4" id="jabaVideo" autoplay muted loop></video>
   <div class="wrapper">
     <img src="diagram.jpg" alt="Координатная плоскость" class="diagram">
   </div>
 
   <div id="main">
-    <form method="post" action="checkHitPoint.php" id="checkForm">
+    <form method="post" action="" id="checkForm">
       <div id="area_x" class="border">
         <p><label for="coordinateX"> Координата Х: </label></p>
-        <input type="text" id="coordinateX" name="coordinateX" placeholder="От -5 по 3">
+        <input type="text" id="coordinateX" name="coordinateX" maxlength="5" placeholder="От -5 по 3">
       </div>
 
       <div id="area_y" class="border">
@@ -40,11 +41,11 @@
         <br class="coordinateYE">
       </div>
 
-      <div id="area_z" class="border">
+      <div id="area_r" class="border">
         <p>
-          Выберите координату Z:
+          Выберите координату R:
         </p>
-        <select name="coordinateZ">
+        <select name="coordinateR">
           <option value="1" selected>1</option>
           <option value="2">2</option>
           <option value="3">3</option>
@@ -52,8 +53,28 @@
           <option value="5">5</option>
         </select>
       </div>
-      <p><input type="submit" id="formSubmit" value="Выбрать">
+      <p><input type="submit" id="formSubmit" value="Check">
     </form>
+  </div>
+  <div id="time-node"></div>
+  <div id="table-wrapper">
+    <div id="table-scroll">
+      <table id="tableWithResults">
+      <tr>
+        <th>X</th>
+        <th>Y</th>
+        <th>Z</th>
+        <th>RESULT</th>
+        <th>DURATION</th>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      </table>
+    </div>
   </div>
 
 
