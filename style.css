@@ -15,28 +15,6 @@ header {
   text-shadow: -1px -3px 3px #000000;
 }
 
-#main {
-  max-width: 1200px;
-  margin: 0px auto;
-  padding: 0px 15px;
-}
-
-@media (max-width: 1200px) {
-  #main {
-    max-width: 970px;
-    margin: 0px auto;
-    padding: 0px 15px;
-  }
-}
-
-@media (max-width: 992px) {
-  #main {
-    max-width: 750px;
-    margin: 0px auto;
-    padding: 0px 15px;
-  }
-}
-
 #time-node {
   background: rgba(5, 5, 5, 0.3);
   padding: 10px;
@@ -87,32 +65,25 @@ body {
 
   width: 200px;
   height: 120px;
-  /*border-radius: 15px;*/
 }
 
+
 #area_y {
-  position: absolute; /* Абсолютное позиционирование */
+  position: absolute;
   top: 18%;
   left: 47%;
-  /* Положение от правого края окна */
   width: 240px;
   height: 140px;
 }
 
+
 #area_r {
-  position: absolute; /* Абсолютное позиционирование */
+  position: absolute;
   top: 37%;
   left: 30%;
   width: 240px;
   height: 110px;
 }
-
-.error {
-
-}
-
-
-
 
 h3 {
   font-family: Arial, Helvetica, sans-serif;
@@ -157,7 +128,7 @@ tr:hover td {color: #df0dec;}
   margin: 0 auto;
   width:200px;
   height:200px;
-  position: fixed; /* Фиксированное положение */
+  position: fixed;
   right: 10px; /* Расстояние от правого края окна браузера */
   top: 73%;
 }
@@ -187,7 +158,6 @@ th {
   position: fixed;
   right: 10px;
 }
-
 
 ::-webkit-scrollbar {
   height: 8px; /* высота для горизонтального скролла */

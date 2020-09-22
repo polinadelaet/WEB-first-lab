@@ -13,7 +13,7 @@ $(function () {
 
     $('#checkForm').submit(function (e) {
 
-        var coordinateX = $('#coordinateX').val();
+        /*var coordinateX = $('#coordinateX').val();
         var coordinateY = $('input[name="coordinateY"]:checked').val();
 
         $('.coordinateYE').next("div").remove();
@@ -32,7 +32,7 @@ $(function () {
             e.preventDefault();
             $('.coordinateYE').after('<div>Неверные данные</div>');
             return;
-        }
+        }*/
 
 
         e.preventDefault();
