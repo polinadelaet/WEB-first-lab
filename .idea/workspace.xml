@@ -19,11 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e6db6ff-b37b-4e6c-aaec-593370fb58e6" name="Default Changelist" comment="final">
+    <list default="true" id="5e6db6ff-b37b-4e6c-aaec-593370fb58e6" name="Default Changelist" comment="add server validation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkHitPoint.php" beforeDir="false" afterPath="$PROJECT_DIR$/checkHitPoint.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mne.mp4" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -39,6 +38,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -57,6 +57,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/script.php" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -93,6 +94,10 @@
       <workItem from="1600714546169" duration="12472000" />
       <workItem from="1600752795398" duration="5047000" />
       <workItem from="1600767031845" duration="11918000" />
+      <workItem from="1600815375087" duration="1583000" />
+      <workItem from="1600895897264" duration="1319000" />
+      <workItem from="1600978624983" duration="6758000" />
+      <workItem from="1601020790466" duration="14036000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1600379990817</created>
@@ -108,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600724016084</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add server validation">
+      <created>1600815406498</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600815406498</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,7 +141,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="final" />
-    <option name="LAST_COMMIT_MESSAGE" value="final" />
+    <MESSAGE value="add server validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="add server validation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="348" y="87" key="#CLI_Interpreters" timestamp="1599839756936">
@@ -172,6 +185,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="154" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1600385448675" />
+    <state x="604" y="356" key="NewPhpFileDialog" timestamp="1601024465020">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="604" y="356" key="NewPhpFileDialog/0.0.1536.864@0.0.1536.864" timestamp="1601024465020" />
     <state x="277" y="77" key="SettingsEditor" timestamp="1599858960852">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

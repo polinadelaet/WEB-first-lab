@@ -1,19 +1,20 @@
 $(function () {
 
-    var timeNode = document.getElementById('time-node');
+    $.ajax({
+        url: 'init.php',
+        type: "POST",
+        success: function (response) {
+            $(response).insertAfter($("tr:last"));
+        },
+        error: function(response) { // Данные не отправлены
+            alert("о оу");
+        }
+    });
 
-    function getCurrentTimeString() {
-        return new Date().toTimeString().replace(/ .*/, '');
-    }
-
-    setInterval(
-        () => timeNode.innerHTML = getCurrentTimeString(),
-        1000
-    );
 
     $('#checkForm').submit(function (e) {
 
-        /*var coordinateX = $('#coordinateX').val();
+        var coordinateX = $('#coordinateX').val();
         var coordinateY = $('input[name="coordinateY"]:checked').val();
 
         $('.coordinateYE').next("div").remove();
@@ -32,8 +33,7 @@ $(function () {
             e.preventDefault();
             $('.coordinateYE').after('<div>Неверные данные</div>');
             return;
-        }*/
-
+        }
 
         e.preventDefault();
         $.ajax({
