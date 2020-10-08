@@ -19,12 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e6db6ff-b37b-4e6c-aaec-593370fb58e6" name="Default Changelist" comment="add server validation">
+    <list default="true" id="5e6db6ff-b37b-4e6c-aaec-593370fb58e6" name="Default Changelist" comment="add session">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkHitPoint.php" beforeDir="false" afterPath="$PROJECT_DIR$/checkHitPoint.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +95,12 @@
       <workItem from="1600815375087" duration="1583000" />
       <workItem from="1600895897264" duration="1319000" />
       <workItem from="1600978624983" duration="6758000" />
-      <workItem from="1601020790466" duration="14036000" />
+      <workItem from="1601020790466" duration="14416000" />
+      <workItem from="1601730690095" duration="9216000" />
+      <workItem from="1601965232607" duration="638000" />
+      <workItem from="1602107966829" duration="10740000" />
+      <workItem from="1602148143118" duration="604000" />
+      <workItem from="1602194137018" duration="1017000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1600379990817</created>
@@ -120,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600815406498</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add session">
+      <created>1601067131267</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601067131279</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +152,8 @@
     <MESSAGE value="init" />
     <MESSAGE value="final" />
     <MESSAGE value="add server validation" />
-    <option name="LAST_COMMIT_MESSAGE" value="add server validation" />
+    <MESSAGE value="add session" />
+    <option name="LAST_COMMIT_MESSAGE" value="add session" />
   </component>
   <component name="WindowStateProjectService">
     <state x="348" y="87" key="#CLI_Interpreters" timestamp="1599839756936">
@@ -157,6 +168,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="528" y="234" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1600107411311" />
+    <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602194301312">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1602194301312" />
     <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1599840310468">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -193,6 +208,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="277" y="77" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1599858960852" />
+    <state x="809" y="200" key="run.anything.popup" timestamp="1602117658897">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="809" y="200" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1602117658897" />
     <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1600084935096">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
