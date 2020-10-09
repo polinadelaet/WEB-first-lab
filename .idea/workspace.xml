@@ -19,10 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e6db6ff-b37b-4e6c-aaec-593370fb58e6" name="Default Changelist" comment="add session">
+    <list default="true" id="5e6db6ff-b37b-4e6c-aaec-593370fb58e6" name="Default Changelist" comment="add server validation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +98,7 @@
       <workItem from="1601965232607" duration="638000" />
       <workItem from="1602107966829" duration="10740000" />
       <workItem from="1602148143118" duration="604000" />
-      <workItem from="1602194137018" duration="1017000" />
+      <workItem from="1602194137018" duration="2595000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1600379990817</created>
@@ -130,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601067131279</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add server validation">
+      <created>1602195662327</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602195662353</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,9 +156,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="final" />
-    <MESSAGE value="add server validation" />
     <MESSAGE value="add session" />
-    <option name="LAST_COMMIT_MESSAGE" value="add session" />
+    <MESSAGE value="add server validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="add server validation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="348" y="87" key="#CLI_Interpreters" timestamp="1599839756936">
